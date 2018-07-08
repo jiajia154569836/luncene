@@ -1,6 +1,7 @@
 package com.test;
 
 
+
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.core.SimpleAnalyzer;
 import org.apache.lucene.document.*;
@@ -15,10 +16,10 @@ import org.junit.Test;
 import java.io.IOException;
 import java.nio.file.Paths;
 
-public class LunceneDemo {
+public class LunceneField {
 
-    public static String PATH = "E:\\workspace\\git\\luncene\\index\\hello001";
-    String doc1 = "hello abc";
+    public static String PATH = "E:\\workspace\\git\\luncene\\index\\hello004";
+    String doc1 = "hello";
     String doc2 ="hello java";
     String doc3 ="hello 源码";
     String doc4 ="hello File练习";
@@ -35,24 +36,17 @@ public class LunceneDemo {
         IndexWriterConfig conf = new IndexWriterConfig(new SimpleAnalyzer());
         IndexWriter indexWriter = new IndexWriter(d,conf);
 
-        Document document1= new Document();
-        document1.add(new TextField("id","1",Field.Store.YES));
-        document1.add(new TextField("title","doc1",Field.Store.YES));
-        document1.add(new TextField("content",doc1,Field.Store.YES));
-        Document document2= new Document();
-        document2.add(new TextField("id","2",Field.Store.YES));
-        document2.add(new TextField("title","doc2",Field.Store.YES));
-        document2.add(new TextField("content",doc2,Field.Store.YES));
+        Document document4= new Document();
+        document4.add(new TextField("id","4",Field.Store.YES));
+        document4.add(new TextField("title","doc4",Field.Store.YES));
 
-        Document document3= new Document();
-        document3.add(new TextField("id","3",Field.Store.YES));
-        document3.add(new TextField("title","doc3",Field.Store.YES));
-        document3.add(new TextField("content",doc3,Field.Store.YES));
-
-        indexWriter.addDocument(document1);
-        indexWriter.addDocument(document2);
-        indexWriter.addDocument(document3);
-
+        FieldType type = new FieldType();
+        type.setStored(true);//是否存储数据库
+        type.setIndexOptions(IndexOptions.DOCS_AND_FREQS_AND_POSITIONS_AND_OFFSETS);//该字段是否创建索引
+        type.setTokenized(true);//是否分词
+        Field field = new Field("content",doc4,type);
+        document4.add(field);
+        indexWriter.addDocument(document4);
 
         indexWriter.commit();
         indexWriter.close();
@@ -85,6 +79,8 @@ public class LunceneDemo {
             System.out.println(document.get("content"));
 
         }
-    }
 
+
+    }
 }
+

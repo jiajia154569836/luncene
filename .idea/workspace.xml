@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3200f5c7-86f9-41b9-8eef-91c1916e8e09" name="Default" comment="" />
+    <list default="true" id="3200f5c7-86f9-41b9-8eef-91c1916e8e09" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/test/LunceneCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/test/LunceneField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/test/LunceneIKAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/hello001/_0.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/hello001/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/hello001/_0.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/hello001/_1.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/hello001/_1.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/hello001/_1.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/hello001/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index/hello001/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/lucene/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/lucene/Indexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/test/LunceneCandE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/test/LunceneChinese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/test/LunceneChinese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/test/LunceneDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/test/LunceneDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/LunceneCandE.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +32,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LunceneDemo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LunceneDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="36" column="20" selection-end-line="94" />
+            <state relative-caret-position="188">
+              <caret line="89" column="4" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#testCreate#0;class#LunceneDemo#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LunceneCRUD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneCRUD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="106" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LunceneField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#testCreate#0;class#LunceneDemo#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,33 +70,14 @@
       <file leaf-file-name="LunceneChinese.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneChinese.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-639">
-              <caret line="35" column="28" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LunceneCandE.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneCandE.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="91" column="41" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="41" />
+            <state relative-caret-position="-439">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;method#testAnalyzer#0;class#LunceneCandE#0" expanded="true" />
+                <element signature="docComment;method#testCreate#0;class#LunceneChinese#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IKAnalyzer.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/IKFF_U1/IKAnalyzer.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="中文停滞词.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/中文停滞词.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="stopword.dic" pinned="false" current-in-tab="false">
@@ -67,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/sources/IKAnalyzer.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -84,8 +110,18 @@
       <file leaf-file-name="Indexer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/java/lucene/Indexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="-700">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#Indexer#0" expanded="true" />
+                <element signature="docComment;method#Indexer#0;class#Indexer#0" expanded="true" />
+                <element signature="docComment;method#close#0;class#Indexer#0" expanded="true" />
+                <element signature="docComment;method#index#0;class#Indexer#0" expanded="true" />
+                <element signature="docComment;method#indexFile#0;class#Indexer#0" expanded="true" />
+                <element signature="docComment;method#getDocument#0;class#Indexer#0" expanded="true" />
+                <element signature="docComment;method#main#0;class#Indexer#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +129,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="281">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -108,20 +144,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/lucene/Test.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/test/Luncene.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/test/LunceneDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java/lucene/Indexer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/sources/stopword.dic" />
         <option value="$PROJECT_DIR$/src/main/sources/IKAnalyzer.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/sources/ext.dic" />
         <option value="$PROJECT_DIR$/src/main/test/com/test/LunceneCandE.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/java/lucene/Indexer.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/test/LunceneChinese.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/test/LunceneIKAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/test/LunceneField.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/test/LunceneCRUD.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/test/LunceneDemo.java" />
       </list>
     </option>
   </component>
@@ -144,7 +186,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="424" />
     <option name="y" value="11" />
     <option name="width" value="928" />
@@ -166,6 +208,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -209,6 +252,14 @@
               <item name="luncene" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luncene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luncene" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,6 +280,32 @@
             <path>
               <item name="luncene" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="luncene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-queryparser:5.3.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="luncene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-queryparser:5.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="lucene-queryparser-5.3.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luncene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-queryparser:5.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="lucene-queryparser-5.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="queryparser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luncene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-queryparser:5.3.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="lucene-queryparser-5.3.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="queryparser" type="462c0819:PsiDirectoryNode" />
+              <item name="classic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,14 +349,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LunceneCandE.testIk">
+  <component name="RunManager" selected="JUnit.LunceneCRUD.testSearch">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LunceneCandE.testIk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LunceneCRUD.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="luncene" />
       <extension name="coverage">
         <pattern>
@@ -290,8 +367,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.LunceneCandE" />
-      <option name="METHOD_NAME" value="testIk" />
+      <option name="MAIN_CLASS_NAME" value="com.test.LunceneCRUD" />
+      <option name="METHOD_NAME" value="testCreate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -302,7 +379,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LunceneCandE.testName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LunceneCRUD.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="luncene" />
       <extension name="coverage">
         <pattern>
@@ -313,8 +390,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.LunceneCandE" />
-      <option name="METHOD_NAME" value="testName" />
+      <option name="MAIN_CLASS_NAME" value="com.test.LunceneCRUD" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -325,7 +402,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LunceneCandE.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LunceneCRUD.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="luncene" />
       <extension name="coverage">
         <pattern>
@@ -336,7 +413,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.LunceneCandE" />
+      <option name="MAIN_CLASS_NAME" value="com.test.LunceneCRUD" />
       <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -348,7 +425,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LunceneCandE.testSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LunceneCRUD.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="luncene" />
       <extension name="coverage">
         <pattern>
@@ -359,8 +436,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.LunceneCandE" />
-      <option name="METHOD_NAME" value="testSimple" />
+      <option name="MAIN_CLASS_NAME" value="com.test.LunceneCRUD" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -371,7 +448,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LunceneDemo.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LunceneDemo.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="luncene" />
       <extension name="coverage">
         <pattern>
@@ -383,7 +460,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.LunceneDemo" />
-      <option name="METHOD_NAME" value="testSearch" />
+      <option name="METHOD_NAME" value="testCreate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -446,19 +523,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LunceneDemo.testSearch" />
-      <item itemvalue="JUnit.LunceneCandE.testSearch" />
-      <item itemvalue="JUnit.LunceneCandE.testName" />
-      <item itemvalue="JUnit.LunceneCandE.testIk" />
-      <item itemvalue="JUnit.LunceneCandE.testSimple" />
+      <item itemvalue="JUnit.LunceneDemo.testCreate" />
+      <item itemvalue="JUnit.LunceneCRUD.testDelete" />
+      <item itemvalue="JUnit.LunceneCRUD.testCreate" />
+      <item itemvalue="JUnit.LunceneCRUD.testSearch" />
+      <item itemvalue="JUnit.LunceneCRUD.testUpdate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LunceneCandE.testIk" />
-        <item itemvalue="JUnit.LunceneCandE.testSimple" />
-        <item itemvalue="JUnit.LunceneCandE.testName" />
-        <item itemvalue="JUnit.LunceneCandE.testSearch" />
-        <item itemvalue="JUnit.LunceneDemo.testSearch" />
+        <item itemvalue="JUnit.LunceneCRUD.testSearch" />
+        <item itemvalue="JUnit.LunceneCRUD.testUpdate" />
+        <item itemvalue="JUnit.LunceneCRUD.testCreate" />
+        <item itemvalue="JUnit.LunceneCRUD.testDelete" />
+        <item itemvalue="JUnit.LunceneDemo.testCreate" />
       </list>
     </recent_temporary>
   </component>
@@ -473,44 +550,44 @@
       <option name="presentableId" value="Default" />
       <updated>1530708046318</updated>
       <workItem from="1530708051404" duration="7516000" />
-      <workItem from="1531016164588" duration="7037000" />
+      <workItem from="1531016164588" duration="16810000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 11h 13m 02s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testCreate - 2018.07.08 at 20h 01m 21s.xml">
+      <configuration name="LunceneCRUD.testCreate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 11h 14m 19s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testSearch - 2018.07.08 at 20h 01m 49s.xml">
+      <configuration name="LunceneCRUD.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 11h 20m 45s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testDelete - 2018.07.08 at 20h 02m 17s.xml">
+      <configuration name="LunceneCRUD.testDelete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 11h 22m 01s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testSearch - 2018.07.08 at 20h 02m 26s.xml">
+      <configuration name="LunceneCRUD.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 11h 30m 31s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testUpdate - 2018.07.08 at 23h 10m 32s.xml">
+      <configuration name="LunceneCRUD.testUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 11h 31m 43s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testSearch - 2018.07.08 at 23h 10m 39s.xml">
+      <configuration name="LunceneCRUD.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 11h 32m 18s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testCreate - 2018.07.08 at 23h 12m 07s.xml">
+      <configuration name="LunceneCRUD.testCreate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 12h 06m 42s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testSearch - 2018.07.08 at 23h 12m 14s.xml">
+      <configuration name="LunceneCRUD.testSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 12h 07m 05s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testUpdate - 2018.07.08 at 23h 12m 20s.xml">
+      <configuration name="LunceneCRUD.testUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LunceneCandE_testIk - 2018.07.08 at 12h 07m 36s.xml">
-      <configuration name="LunceneCandE.testIk" configurationId="JUnit" />
+    <history-entry file="LunceneCRUD_testSearch - 2018.07.08 at 23h 12m 32s.xml">
+      <configuration name="LunceneCRUD.testSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14553000" />
+    <option name="totallyTimeSpent" value="24326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -533,10 +610,10 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.28324696" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.27979276" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26070336" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2882263" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="6" />
@@ -562,6 +639,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testCreate#0;class#LunceneDemo#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -569,6 +650,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1450">
           <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testCreate#0;class#LunceneChinese#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -576,20 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/lucene/Indexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="36" column="20" selection-end-line="94" />
         </state>
       </provider>
     </entry>
@@ -602,7 +673,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/sources/IKAnalyzer.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -622,25 +693,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="281">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/lucene/Indexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Indexer#0" expanded="true" />
+            <element signature="docComment;method#Indexer#0;class#Indexer#0" expanded="true" />
+            <element signature="docComment;method#close#0;class#Indexer#0" expanded="true" />
+            <element signature="docComment;method#index#0;class#Indexer#0" expanded="true" />
+            <element signature="docComment;method#indexFile#0;class#Indexer#0" expanded="true" />
+            <element signature="docComment;method#getDocument#0;class#Indexer#0" expanded="true" />
+            <element signature="docComment;method#main#0;class#Indexer#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneChinese.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-639">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="-439">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testCreate#0;class#LunceneChinese#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneCandE.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneIKAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="91" column="41" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="41" />
+        <state relative-caret-position="165">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/5.3.1/lucene-queryparser-5.3.1.jar!/org/apache/lucene/queryparser/classic/QueryParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#testAnalyzer#0;class#LunceneCandE#0" expanded="true" />
+            <element signature="docComment;method#testCreate#0;class#LunceneDemo#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneCRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="106" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/test/LunceneDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="89" column="4" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#testCreate#0;class#LunceneDemo#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -676,7 +800,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Python 3.6 (scalanew) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
