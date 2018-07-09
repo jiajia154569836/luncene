@@ -80,10 +80,6 @@
 //        }
 //    }
 //
-////    @Test
-////    public void testSimple () throws IOException {
-////        testAnalyzer(new SimpleAnalyzer(),doc1);
-////    }
 //
 //    @Test
 //    public void testIk () throws IOException {
@@ -91,4 +87,10 @@
 //        //不写------最小化原则-------细粒度划分
 //        testAnalyzer(new IKAnalyzer(true),doc1);
 //    }
+//
+//
+////    @Test
+////    public void testSimple () throws IOException {
+////        testAnalyzer(new SimpleAnalyzer(),doc1);
+////    }
 //}
